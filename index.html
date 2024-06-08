@@ -12,17 +12,17 @@
         <div class="img">
             <img src="Images/logo.png" alt="">
          </div>
-        <form class="forgot-password">
+        <form class="forgot-password" action=" " method=" ">
             
             <h2>Forgot Password</h2>
 
              <p>Input your email send you a reset paasword link </p>
 
-             
-            <input autofocus="autofocus" id="address" type="text" name="emailAddress" placeholder="EmailAddress"><br>
-            <input   type="text"   name="email" placeholder="Enter Your email"><br>
+            <label >EmailAddress</label>
+          <!---- <input  autofocus="autofocus" id="address" type="text" name="emailAddress" placeholder="EmailAddress" required><br>-->
+            <input autofocus="autofocus"  type="text"   name="email" placeholder="Enter Your email" required><br>
 
-            <button class="btn1" >Send</button>
+            <button class="btn1" id="btn" >Send</button>
 
             <div class="tex-btn">
                 <p>Don't have an account yet? </p>
@@ -34,9 +34,7 @@
 
         
     </div>
- <!--   <script>
-        OnLoad="document.myform.mytextfield.focus();"
-    </script> -->
+    <script src="script.js"></script>
  
 </body>
 </html>
